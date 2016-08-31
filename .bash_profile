@@ -25,10 +25,14 @@ export PS1='\[\e[33;40m\][$(date "+%H:%M")] \w \[\e[35;40m\]$(__git_ps1 "[%s]")\
 [ -s "/Users/michaelimstepf/.scm_breeze/scm_breeze.sh" ] && source "/Users/michaelimstepf/.scm_breeze/scm_breeze.sh"
 
 # Shortcuts
-alias db='rails dbconsole'
-alias pry='pry -r ./config/environment'
-alias rm='rm -i'
+alias reload='source ~/.bash_profile'
 alias reload='source ~/.bash_profile'
 alias pgs='postgres -D /usr/local/var/postgres'
 alias rds='redis-server /usr/local/etc/redis.conf'
-alias prs='touch ~/.pow/restart.txt'
+alias rdf='redis-cli flushall'
+alias frc='foreman run rails c'
+alias fs='foreman start -f Procfile.dev'
+alias frr='foreman run rails s -p 5000'
+alias hrc='heroku run rails c -a tidyme-production'
+alias hrm='heroku run rake db:migrate -a tidyme-production'
+alias hrr='heroku restart -a tidyme-production'
