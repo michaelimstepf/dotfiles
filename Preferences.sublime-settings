@@ -3,7 +3,7 @@
 	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"copy_with_empty_selection": true,
-	"font_size": 15,
+	"font_size": 13,
 	"index_files": true,
 	"rulers":
 	[
@@ -13,4 +13,3 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
-
