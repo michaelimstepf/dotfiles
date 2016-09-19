@@ -26,7 +26,6 @@ export PS1='\[\e[33;40m\][$(date "+%H:%M")] \w \[\e[35;40m\]$(__git_ps1 "[%s]")\
 
 # Shortcuts
 alias reload='source ~/.bash_profile'
-alias reload='source ~/.bash_profile'
 alias pgs='postgres -D /usr/local/var/postgres'
 alias rds='redis-server /usr/local/etc/redis.conf'
 alias rdf='redis-cli flushall'
